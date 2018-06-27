@@ -1,3 +1,10 @@
+# First, we define our FancyDance module. Then, inside the FancyDance module,
+# we define a second module, InstanceMethods. Inside the InstanceMethods module,
+# we place all our methods that we intend to be used as instance methods
+# (twirl, jump, pirouette, take_a_bow). Next, we define a second nested module
+# (nested inside of FancyDance) called ClassMethods. Inside, we place the metadata method,
+# which we intend to be used as a class method.
+
 module FancyDance
   module InstanceMethods
 

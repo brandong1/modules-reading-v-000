@@ -8,7 +8,7 @@ class Kid # To lend our two classes all of the methods of the Dance module, we u
 
   # We refer to the name-spaced modules or classes with ::. This syntax references the parent and child relationship of the nested modules.
   extend FancyDance::ClassMethods
-  include FancyDance::InstanceMethods
+  include FancyDance::InstanceMethods # include is used to add functionality to our classes via instance methods.
 
   attr_accessor :name
 

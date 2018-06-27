@@ -7,8 +7,8 @@ class Dancer # If we use include keyword, we allow our classes to use all of the
   # extend MetaDancing
 
   # We refer to the name-spaced modules or classes with ::. This syntax references the parent and child relationship of the nested modules.
-  extend FancyDance::ClassMethods
-  include FancyDance::InstanceMethods
+  extend FancyDance::ClassMethods # extend is used to add functionality to our classes via CLASS methods
+  include FancyDance::InstanceMethods # include is used to add functionality to our classes via INSTANCE methods.
 
 
   attr_accessor :name

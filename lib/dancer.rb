@@ -6,6 +6,7 @@ class Dancer # If we use include keyword, we allow our classes to use all of the
   # include Dance
   # extend MetaDancing
 
+  # We refer to the name-spaced modules or classes with ::. This syntax references the parent and child relationship of the nested modules.
   extend FancyDance::ClassMethods
   include FancyDance::InstanceMethods
 

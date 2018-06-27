@@ -6,6 +6,7 @@ class Kid # To lend our two classes all of the methods of the Dance module, we u
   # include Dance
   # extend MetaDancing
 
+  # We refer to the name-spaced modules or classes with ::. This syntax references the parent and child relationship of the nested modules.
   extend FancyDance::ClassMethods
   include FancyDance::InstanceMethods
 

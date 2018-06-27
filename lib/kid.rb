@@ -17,3 +17,8 @@ class Kid # To lend our two classes all of the methods of the Dance module, we u
   end
 
 end
+
+
+# If you have a module whose methods you would like to be used in another class as instance methods, then you must include the module.
+
+# If you want a module's methods to be used in another class as class methods, you must extend the module.
